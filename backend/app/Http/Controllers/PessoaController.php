@@ -80,6 +80,6 @@ class PessoaController extends Controller
     public function destroy(string $idPessoa)
     {
         \DB::delete('DELETE FROM pessoas WHERE id = ' . $idPessoa);
-            return 'deu certo deletacao';
+            return 'deu certo exlusao';
     }
 }
